@@ -1,4 +1,4 @@
-//archivo para poder manejar los customer
+//codigo para manejar el custommer controller
 const controller ={};
 
 controller.list = (req,res)=>{

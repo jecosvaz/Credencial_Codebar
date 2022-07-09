@@ -17,6 +17,8 @@ app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
 /*Ahora aplicaremos unas plantillas con ejs para poder usarlas con html*/
 app.set('view engine', 'ejs');
+//imagen para el codigo de barras
+
 
 //middelwares
 app.use(morgan ('dev'));
